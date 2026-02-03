@@ -1,0 +1,9 @@
+code;libelle français;libelle anglais
+001T100_RP;"Aucun diplôme ou certificat d'études primaires";"Early childhood education or primary education"
+200_RP;"BEPC, brevet élémentaire, brevet des collèges, DNB";"Lower secondary education"
+300_RP;"CAP, BEP ou diplôme de niveau équivalent";"Upper secondary education – French CAP, BEP or equivalent"
+350T351_RP;"Baccalauréat, brevet professionnel ou équivalent";"Upper secondary education – French Baccalauréat"
+500_RP;"Enseignement supérieur de cycle court : BTS, DUT, Deug, Deust, diplôme de la santé ou du social de niveau bac+2, diplôme";"Short-cycle tertiary education - French Deug"
+600_RP;"Baccalauréat universitaire ou équivalent : Licence, licence pro, maîtrise, diplôme équivalent de niveau bac+3 ou bac+4";"Bachelor’s or equivalent level"
+700_RP;"Diplôme de niveau bac + 5 ou plus";"Master’s or above, or equivalent level"
+_T;"Total";"Total"
