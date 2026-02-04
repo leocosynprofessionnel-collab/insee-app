@@ -1,0 +1,8 @@
+code;libelle français;libelle anglais
+BOT_GAS;"Gaz en bouteilles ou en citerne";"Bottled or tank gaz"
+OIL;"Fioul (mazout)";"Fuel oil"
+ELC;"Electricité";"Electricity"
+OTH;"Autres (bois, solaire, géothermie, etc.)";"Other (wood, solar, geothermal, etc.)"
+TOWN_GAS;"Gaz de ville - réseau de chaleur";"Town gas - district heating network"
+_Z;"Hors logement ordinaire ou hors métropole";"Outside standard housing or outside the mainland"
+_T;"Total";"Total"

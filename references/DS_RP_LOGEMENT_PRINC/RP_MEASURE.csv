@@ -1,0 +1,5 @@
+code;libelle français;libelle anglais
+DWELLINGS;"Logements";"Dwellings"
+DWELLINGS_POPSIZE;"Population des ménages";"Household population"
+DWELLINGS_ROOMS;"Nombre de pièces";"Number of rooms"
+DWELLING_L_STAY;"Durée";"Duration"
