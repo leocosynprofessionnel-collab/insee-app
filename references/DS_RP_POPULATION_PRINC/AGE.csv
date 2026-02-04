@@ -1,0 +1,12 @@
+code;libelle français;libelle anglais
+Y15T24;"De 15 à 24 ans ";"From 15 to 24 years"
+Y20T64;"De 20 à 64 ans";"From 20 to 64 years"
+Y25T39;"De 25 à 39 ans";"From 25 to 39 years"
+Y40T54;"De 40 à 54 ans";"From 40 to 54 years"
+Y55T64;"De 55 à 64 ans";"From 55 to 64 years"
+Y65T79;"De 65 à 79 ans";"From 65 to 79 years"
+Y_GE65;"65 ans ou plus";"65 years old or older"
+Y_GE80;"80 ans ou plus";"80 years old or older"
+Y_LT15;"Moins de 15 ans";"Under 15 years old"
+Y_LT20;"Moins de 20 ans";"Under 20 years old"
+_T;"Total";"Total"

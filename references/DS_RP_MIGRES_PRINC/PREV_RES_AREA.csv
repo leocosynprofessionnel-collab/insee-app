@@ -1,0 +1,10 @@
+code;libelle français;libelle anglais
+12;"Autre logement dans la même commune";"In another dwelling in the same municipality"
+20_30;"Dans une autre commune";"In a municipality other than the one of residence"
+11;"Dans le même logement";"In the same dwelling"
+21;"Autre commune du département";"Other commune in the department"
+22;"Autre département de la région";"Other department in the region"
+23;"Hors de la région en métropole";"Outside the region in metropolitan France"
+24;"Hors de la région dans un DOM";"Outside the region in a DOM"
+25T32;"Hors métropole ou DOM";"Outside mainland France or DOM"
+_T;"Total";"Total"

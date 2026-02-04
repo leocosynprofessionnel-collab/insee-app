@@ -1,0 +1,5 @@
+code;libelle français;libelle anglais
+DW_MAIN;"Résidences principales";"Main residences"
+DW_SEC_DW_OCC;"Résidences secondaires et logements occasionnels";"Dwellings reserved for secondary use and occasional dwellings"
+DW_VAC;"Logements vacants";"Vacant dwellings"
+_T;"Total";"Total"

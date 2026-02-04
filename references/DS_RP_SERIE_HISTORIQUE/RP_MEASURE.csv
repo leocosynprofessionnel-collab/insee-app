@@ -1,0 +1,7 @@
+code;libelle français;libelle anglais
+DWELLINGS;"Logements";"Dwellings"
+DWELLINGS_POPSIZE;"Population des ménages";"Household population"
+BRTH;"Nombre de naissances cumulées entre deux recensements";"Total births between two censuses"
+POP;"Population";"Population"
+DEATH;"Nombre de décès cumulés entre deux recensements";"Total deaths between two censuses"
+SUP;"Superficie";"Surface area"

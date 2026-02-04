@@ -1,0 +1,10 @@
+code;libelle français;libelle anglais
+11;"Ménage à une personne";"Household with only one person"
+110;"Homme seul";"Lone man"
+12;"Ménage sans famille à plusieurs personnes ";"Household with family made of several persons"
+111;"Femme seule";"Lone woman"
+2;"Ménage comprenant une famille";"Household with one family nucleus"
+MF221;"Famille principale couple sans enfants";"Main couple family without children"
+MF21;"Famille principale monoparentale";"Single-parent main family"
+MF222;"Famille principale couple avec enfants";"Main couple family with children"
+_T;"Total";"Total"
