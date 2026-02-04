@@ -1,0 +1,7 @@
+code;libelle français;libelle anglais
+_Z;"Sans objet";" Not applicable"
+RMV_VOTERS_DEC;"Électeurs décédés";"Deceased voters"
+RMV_VOTERS_MUN;"Radiations d’électeurs à l'initiative des communes";"Removals of voters by municipality"
+RMV_VOTERS_NR;"Radiations d’électeurs suite d’une nouvelle inscription";"Removals of voters after new registration"
+RMV_VOTERS_OTHER;"Autres motifs de radiation";"Other reasons for removal"
+_T;"Total";"Total"

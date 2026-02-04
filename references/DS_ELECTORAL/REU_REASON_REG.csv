@@ -1,0 +1,9 @@
+code;libelle français;libelle anglais
+_Z;"Sans objet";" Not applicable"
+REG_VOTERS_Y_GE18;"Électeurs atteignant l'âge électoral (inscrits d’office)";"Voter reaching voting age (automatically registered)"
+REG_VOTERS_VOL;"Inscriptions volontaires d’électeurs faites en ligne ou par papier en mairie";"Voluntary registrations online or paper"
+REG_VOTERS_VOL_PR;"Inscriptions volontaires papier faites en mairie";"Voluntary registrations paper"
+REG_VOTERS_VOL_OL;"Inscriptions volontaires d’électeurs faites en ligne ";"Voluntary registrations online"
+REG_VOTERS_FN;"Électeurs ayant acquis la nationalité française (inscrits d’office)";"Voters who have acquired french nationality (automatically registered)"
+REG_VOTERS_OTHER;"Autres motifs d'inscription";"Other reasons for registration"
+_T;"Total";"Total"
