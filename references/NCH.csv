@@ -1,7 +1,0 @@
-code;libelle français;libelle anglais
-CH0_Y_LT25;"Aucun enfant de moins de 24 ans";"no children"
-CH2_Y_LT25;"2 enfants de moins de 24 ans";"2 children 24 years of age and under"
-CH3_Y_LT25;"3 enfants de moins de 24 ans";"3 children 24 years of age and under"
-CH1_Y_LT25;"1 enfant de moins de 24 ans";"1 child 24 years of age and under"
-CH_GE4_Y_LT25;"4 enfants ou plus de moins de 24 ans";"4 or more children 24 years of age and under"
-_T;"Total";"Total"

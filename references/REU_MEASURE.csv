@@ -1,8 +1,0 @@
-code;libelle français;libelle anglais
-VOTERS;"Nombre d’électeurs";"Number of voters"
-EVO_REG_VOTERS;"Évolution du nombre d’électeurs inscrits depuis l’élection précédente";"Evolution of the number of registered voters since the previous election"
-EVO_RMV_VOTERS;"Évolution du nombre d’électeurs radiés depuis l’élection précédente";"Evolution of the number of removed voters since the previous election"
-EVO_VOTERS;"Evolution du nombre d’électeurs depuis l’élection précédente";"Evolution of the number of voters since the previous election"
-PT_VOTERS_IN_POP;"Taux d’inscription";"Percentage of voters"
-PT_PROXY_IN_VOTERS;"Taux de procurations";"Proxy rate"
-GRANTOR;"Nombre de mandants";"Number of grantors"

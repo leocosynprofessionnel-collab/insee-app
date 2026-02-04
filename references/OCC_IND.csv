@@ -1,7 +1,0 @@
-code;libelle français;libelle anglais
-MOD_OVER_OCC;"Suroccupation modérée";"Moderate overcrowding"
-MOD_UNDER_OCC;"Sous-occupation modérée";"Moderate under-occupation"
-SEV_UNDER_OCC;"Sous-occupation accentuée";"Severe under-occupation"
-STD_OCC;"Occupation dans la norme";"Standard occupancy"
-SEV_OVER_OCC;"Suroccupation accentuée";"Severe overcrowding"
-VSEV_UNDER_OCC;"Sous-occupation très accentuée";"Very severe under-occupation"
