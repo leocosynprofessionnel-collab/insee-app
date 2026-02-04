@@ -12,53 +12,49 @@ import re
 # ==============================================================================
 
 DATASETS_MAP = {
+    "Caractéristiques de l'Emploi (Princ)": "DS_RP_ACTIVITE_PRINC",
+    "Chômage & Pop. Active (Princ)": "DS_RP_EMPLOI_LR_PRINC",
+    "Corps Électoral": "DS_ELECTORAL",
+    "Création d'Entreprises (Secteur)": "DS_SIDE_CREA_ENT_COM",
+    "Création d'Entreprises à l'échelle supra-communal": "DS_SIDE_CREA_DEP_REG_NAT",
+    "Création d'Établissements": "DS_SIDE_CREA_ETAB_COM",
     "Diplômes et Formation": "DS_RP_DIPLOMES_PRINC",
     "Éducation et Scolarisation": "DS_RP_EDUCATION",
-    "Populations de référence": "DS_POPULATIONS_REFERENCE",
+    "Emploi au Lieu de Travail (Princ)": "DS_RP_EMPLOI_LT_PRINC",
+    "Équipements (Commerce, Services, Santé)": "DS_BPE",
+    "Équipements (Enseignement)": "DS_BPE_EDUCATION",
+    "Équipements (Sport, Loisirs, Culture)": "DS_BPE_SPORT_CULTURE",
+    "Équipements - évolution": "DS_BPE_EVOLUTION",
+    "Établissements (Sphères Économie)": "DS_FLORES_ECONOMIC_SPHERE",
+    "Établissements Salariés (17 Secteurs)": "DS_FLORES_A17",
+    "Établissements Salariés (38 Secteurs)": "DS_FLORES_A38",
+    "Établissements Salariés (5 Secteurs)": "DS_FLORES_A5",
+    "Établissements Salariés (88 Secteurs)": "DS_FLORES_A88",
+    "État Civil : Décès": "DS_ETAT_CIVIL_DECES_COMMUNES",
+    "État Civil : Naissances": "DS_ETAT_CIVIL_NAIS_COMMUNES",
     "Historique Population (1968-2023)": "DS_POPULATIONS_HISTORIQUES",
-    "Salaires Privé (Sexe & PCS)": "DS_BTS_SAL_EQTP_SEX_PCS",
-    "Salaires Privé (Sexe & Âge)": "DS_BTS_SAL_EQTP_SEX_AGE",
+    "Logements (Principal)": "DS_RP_LOGEMENT_PRINC",
+    "Ménages & Couples (Principal)": "DS_RP_MENAGES_PRINC",
+    "Migrations Résidentielles": "DS_RP_MIGRES_PRINC",
+    "Navettes Domicile-Travail": "DS_RP_NAVETTES_PRINC",
     "Niveau de vie & Pauvreté (Âge)": "DS_FILOSOFI_AGE_TP_NIVVIE",
     "Niveau de vie & Pauvreté (Logement)": "DS_FILOSOFI_LOG_TP_NIVVIE",
     "Niveau de vie & Pauvreté (Type Ménage)": "DS_FILOSOFI_MEN_TP_NIVVIE",
+    "Particuliers Employeurs": "DS_FLORES_PE",
     "Pauvreté : Indicateurs Principaux": "DS_FILOSOFI_CC",
-    "Création d'Entreprises (Secteur)": "DS_SIDE_CREA_ENT_COM",
-    "Création d'Établissements": "DS_SIDE_CREA_ETAB_COM",
+    "Population (Principal)": "DS_RP_POPULATION_PRINC",
+    "Populations de référence": "DS_POPULATIONS_REFERENCE",
+    "Salaires Privé (Sexe & Âge)": "DS_BTS_SAL_EQTP_SEX_AGE",
+    "Salaires Privé (Sexe & PCS)": "DS_BTS_SAL_EQTP_SEX_PCS",
+    "Série Historique Recensement": "DS_RP_SERIE_HISTORIQUE",
     "Stocks Établissements (A10)": "DS_SIDE_STOCKS_ET_COM",
     "Stocks Unités Légales (A10)": "DS_SIDE_STOCKS_UL_COM",
-    "Particuliers Employeurs": "DS_FLORES_PE",
-    "Établissements (Sphères Économie)": "DS_FLORES_ECONOMIC_SPHERE",
-    "Établissements Salariés (5 Secteurs)": "DS_FLORES_A5",
-    "Établissements Salariés (17 Secteurs)": "DS_FLORES_A17",
-    "Établissements Salariés (38 Secteurs)": "DS_FLORES_A38",
-    "Établissements Salariés (88 Secteurs)": "DS_FLORES_A88",
-    "Tourisme (Capacités Hébergement)": "DS_TOUR_CAP",
-    "État Civil : Décès": "DS_ETAT_CIVIL_DECES_COMMUNES",
-    "État Civil : Naissances": "DS_ETAT_CIVIL_NAIS_COMMUNES",
-    "Équipements (Commerce, Services, Santé)": "DS_BPE",
-    "Équipements (Sport, Loisirs, Culture)": "DS_BPE_SPORT_CULTURE",
-    "Équipements (Enseignement)": "DS_BPE_EDUCATION",
-    "Population (Principal)": "DS_RP_POPULATION_PRINC",
-    "Population (Complémentaire)": "DS_RP_POPULATION_COMP",
-    "Logements (Principal)": "DS_RP_LOGEMENT_PRINC",
-    "Logements (Complémentaire)": "DS_RP_LOGEMENT_COMPL",
-    "Ménages & Couples (Principal)": "DS_RP_MENAGES_PRINC",
-    "Ménages (Complémentaire)": "DS_RP_MENAGES_COMP",
-    "Familles (Complémentaire)": "DS_RP_FAMILLE_COMP",
-    "Caractéristiques de l'Emploi (Princ)": "DS_RP_ACTIVITE_PRINC",
-    "Chômage & Pop. Active (Princ)": "DS_RP_EMPLOI_LR_PRINC",
-    "Chômage & Pop. Active (Comp)": "DS_RP_EMPLOI_LR_COMP",
-    "Emploi au Lieu de Travail (Princ)": "DS_RP_EMPLOI_LT_PRINC",
-    "Emploi au Lieu de Travail (Comp)": "DS_RP_EMPLOI_LT_COMP",
-    "Navettes Domicile-Travail": "DS_RP_NAVETTES_PRINC",
-    "Migrations Résidentielles": "DS_RP_MIGRES_PRINC",
-    "Série Historique Recensement": "DS_RP_SERIE_HISTORIQUE",
-    "Corps Électoral": "DS_ELECTORAL"
+    "Tourisme (Capacités Hébergement)": "DS_TOUR_CAP"
 }
 
 GEO_API_URL = "https://geo.api.gouv.fr"
 INSEE_API_URL = "https://api.insee.fr/melodi/data"
-MILLESIME_GEO = "2024"
+MILLESIME_GEO = "2025"
 REFERENCES_DIR = "references"
 
 # Rate Limiting
@@ -89,19 +85,26 @@ def get_safe(url, params=None, headers=None):
     return None
 
 class LocalReferenceEngine:
-    """Gestion des traductions"""
-    def __init__(self, ref_dir):
-        self.ref_dir = ref_dir
+    """Gestion des traductions ciblées par dataset"""
+    def __init__(self, root_dir, dataset_id):
+        # C'est ici que la magie opère : on cible le sous-dossier spécifique
+        # Ex: references/DS_RP_DIPLOMES_PRINC
+        self.target_dir = os.path.join(root_dir, dataset_id)
         self.mappings = {}
         self.load_references()
 
     def load_references(self):
-        if not os.path.exists(self.ref_dir): return
-        files = [f for f in os.listdir(self.ref_dir) if f.endswith('.csv')]
+        # Si le dossier spécifique n'existe pas, on ne fait rien (pas de trad)
+        if not os.path.exists(self.target_dir):
+            return
+        
+        # On ne liste que les fichiers de CE dossier précis
+        files = [f for f in os.listdir(self.target_dir) if f.endswith('.csv')]
+        
         for filename in files:
             key = os.path.splitext(filename)[0]
             try:
-                ref_df = pd.read_csv(os.path.join(self.ref_dir, filename), sep=';', dtype=str)
+                ref_df = pd.read_csv(os.path.join(self.target_dir, filename), sep=';', dtype=str)
                 if not ref_df.empty: ref_df.iloc[:, 0] = ref_df.iloc[:, 0].str.strip()
                 if ref_df.shape[1] >= 2:
                     self.mappings[key] = pd.Series(ref_df.iloc[:, 1].values, index=ref_df.iloc[:, 0]).to_dict()
@@ -117,7 +120,6 @@ class LocalReferenceEngine:
                 mapping = self.mappings[mapping_key]
                 df_out[col] = df_out[col].astype(str)
                 if mapping_key == "GEO":
-                    # On garde uniquement le code après le tiret
                     df_out[col] = df_out[col].apply(lambda x: x.split('-', 1)[1] if '-' in x else x).str.strip()
                 df_out[col] = df_out[col].map(mapping).fillna(df_out[col])
         
@@ -177,25 +179,31 @@ def get_geo_targets(start_city_name, mode="SINGLE"):
     return targets, folder_name
 
 def process_data_batched(targets, folder_name, selected_datasets_ids):
-    """Récupère les données par paquets"""
+    """Récupère les données par paquets avec traductions dynamiques"""
     
-    translator = LocalReferenceEngine(REFERENCES_DIR)
+    # ❌ ON SUPPRIME LA LIGNE QUI ETAIT ICI (translator = ...)
+    # Car on ne peut pas charger le traducteur tant qu'on ne connait pas l'ID du dataset
     
     with tempfile.TemporaryDirectory() as temp_dir:
         final_dir = os.path.join(temp_dir, folder_name)
         os.makedirs(final_dir)
         status_log = []
 
-        BATCH_SIZE = 20
+        BATCH_SIZE = 5 
+
         all_geo_params = [t['param'] for t in targets]
-        
         batches = [all_geo_params[i:i + BATCH_SIZE] for i in range(0, len(all_geo_params), BATCH_SIZE)]
         
         progress_bar = st.progress(0)
         total_steps = len(selected_datasets_ids) * len(batches)
         current_step = 0
 
+        # --- BOUCLE PRINCIPALE SUR LES DATASETS ---
         for dataset_name, dataset_id in selected_datasets_ids.items():
+            
+            # ✅ C'EST ICI QU'ON INITIALISE LE TRADUCTEUR MAINTENANT
+            # On lui passe le dossier racine ET l'ID du dataset en cours
+            translator = LocalReferenceEngine(REFERENCES_DIR, dataset_id)
             
             dataset_frames = []
             
@@ -216,6 +224,8 @@ def process_data_batched(targets, folder_name, selected_datasets_ids):
 
             if dataset_frames:
                 full_df = pd.concat(dataset_frames, ignore_index=True)
+                
+                # Traduction avec le moteur spécifique chargé juste au-dessus
                 full_df = translator.translate(full_df)
                 
                 code_to_name = {t['param'].split('-')[-1]: t['nom'] for t in targets}
