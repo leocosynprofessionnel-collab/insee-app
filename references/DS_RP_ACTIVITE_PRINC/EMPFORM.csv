@@ -1,0 +1,12 @@
+code;libelle français;libelle anglais
+2;"Salariés";"Employee"
+1;"Non Salariés";"Self employed"
+11;"Indépendants";"Self employed"
+12;"Employeurs";"Employer"
+13;"Aides familiaux";"Family help"
+211;"Emploi à durée indéterminée (CDI, fonctionnaires)";"Open-ended employment (permanent contracts, civil servants)"
+22;"Contrat à durée déterminée (CDD)";"Fixed-term contract"
+23_25;"Apprentissage, stage";"Apprenticeship, internship"
+24;"Emplois-jeunes, CES, contrats de qualif.";"Youth Employment Promotion "
+26;"Intérim";"Temporary work"
+_T;"Total";"Total"
